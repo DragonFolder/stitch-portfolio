@@ -28,9 +28,9 @@
 <body>
 
     <!-- Navbar Start -->
-        <nav class="top-nav d-flex justify-content-between align-items-center px-4 py-3" id="navbar">
-            <a class="nav-brand d-flex align-items-center gap-2" href="#landing">
-                <span class="material-symbols-outlined toolbox-category-icon">nutrition</span>
+        <nav class="top-nav d-md-flex justify-content-between align-items-center px-4 py-3" id="navbar">
+            <a class="nav-brand d-md-flex align-items-center gap-2" href="#landing">
+                <span class="material-symbols-outlined toolbox-category-icon d-md-flex">nutrition</span>
             </a>
 
             <div class="d-none d-md-flex gap-4">
@@ -39,6 +39,8 @@
                 <a class="nav-link" href="#tools">Tools</a>
                 <a class="nav-link" href="#contact">Contact</a>
             </div>
+
+
 
         </nav>
     <!-- Navbar End -->
@@ -303,6 +305,27 @@
         <!-- Contact Section End -->
 
     </main>
+
+    <!-- Bottom Nav (for mobile) Start -->
+    <div class="d-md-none fixed-bottom bottom-nav d-flex justify-content-around align-items-end pb-3 px-4">
+        <a class="bottom-nav-link" href="#landing">
+            <span class="material-symbols-outlined">home</span>
+            <span class="bottom-nav-label">Home</span>
+        </a>
+        <a class="bottom-nav-link" href="#projects">
+            <span class="material-symbols-outlined">folder_code</span>
+            <span class="bottom-nav-label">Projects</span>
+        </a>
+        <a class="bottom-nav-link" href="#tools">
+            <span class="material-symbols-outlined">design_services</span>
+            <span class="bottom-nav-label">Tools</span>
+        </a>
+        <a class="bottom-nav-link" href="#contact">
+            <span class="material-symbols-outlined">mail</span>
+            <span class="bottom-nav-label">Contact</span>
+        </a>
+    </div>
+    <!-- Bottom Nav End -->
 
     <!-- Footer Section Start -->
     <footer class="footer-section-outer bg-surface-dim pt-5 pb-5">
