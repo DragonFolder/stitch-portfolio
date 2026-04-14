@@ -551,6 +551,7 @@ body {
 
 #contact-form{
     max-width: 36rem;
+    margin: 0 auto;
 }
 
 .contact-text-1{
